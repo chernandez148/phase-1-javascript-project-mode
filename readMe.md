@@ -2,7 +2,7 @@
 
 ## Step 1
 
-    - Use DarkSky api to retrieve info using fetch.
+    - Use Openweatherapp api to retrieve info using fetch.
     - Create a search input to see city weather.
     - Create a dynamic int that represents the weather in °F on the top left corner of the page.
     - Create toggle button that toggles between °F and °C.

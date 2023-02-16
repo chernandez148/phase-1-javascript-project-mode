@@ -38,29 +38,35 @@
       </form>
     </header>
     <div class="main h-100">
-      <div class="container hero text-white h-70">
+      <div class="container-flex hero h-75 pt-6">
         <div class="row flex-md-row flex-column display-1 text-center h-100">
           <div
-            class="d-flex justify-content-center align-items-end align-items-md-center col left"
+            class="d-flex justify-content-center align-items-md-start align-items-end col left"
+            id="left"
+          ></div>
+          <div
+            class="d-flex justify-content-center align-items-md-start align-items-center col center"
+            id="center"
           >
-            1
+            <img src="./assets/location.png" alt="location" width="30px" />
           </div>
           <div
-            class="d-md-flex align-items-md-center justity-content-md-start col right"
+            class="d-flex justify-content-center align-items-md-start col right"
+            id="right"
           >
-            2
+            3
           </div>
         </div>
       </div>
-      <div class="container-fluid forcast text-white h-30">
+      <div class="container-fluid forcast h-md-25">
         <div
-          class="row align-items-center flex-md-row flex-column display-1 text-center h-100"
+          class="row align-items-center flex-md-row flex-column display-5 fw-normal text-center h-100"
         >
-          <div class="col">1</div>
-          <div class="col">2</div>
-          <div class="col">3</div>
-          <div class="col">4</div>
-          <div class="col">5</div>
+          <div class="col border-right" id="div1"></div>
+          <div class="col border-right" id="div2"></div>
+          <div class="col border-right" id="div3"></div>
+          <div class="col border-right" id="div4"></div>
+          <div class="col" id="div5"></div>
         </div>
       </div>
     </div>
